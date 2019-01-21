@@ -29,7 +29,9 @@
                 each={todo in list}
                 on-change={onChangeTodo}
                 on-remove={onRemoveTodo}
-                todo={todo}>
+                todo={todo}
+                key = "id"
+                no-reorder>
             </li>
         </ul>
     </section>
